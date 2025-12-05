@@ -400,21 +400,53 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero-catch {
+        font-size: 1rem;
+    }
+
     .hero-title {
         font-size: 1.8rem;
     }
 
+    .hero-sub {
+        font-size: 0.9rem;
+    }
+
     .section-title {
         font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .section-lead {
+        font-size: 1rem;
+        margin-bottom: 2rem;
     }
 
     .check-list {
+        padding: 25px;
+    }
+
+    .check-list li {
+        font-size: 1rem;
+    }
+
+    .demo-card {
         padding: 20px;
     }
 
     .instructor-profile {
         flex-direction: column;
         text-align: center;
+        gap: 20px;
+    }
+
+    .instructor-img {
+        width: 150px;
+        height: 150px;
     }
 
     .overview-table th,
@@ -425,5 +457,18 @@ footer {
 
     .overview-table th {
         background-color: #e3f2fd;
+    }
+
+    .cta-button {
+        padding: 15px 30px;
+        font-size: 1.1rem;
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .cta-button.large {
+        padding: 15px 20px;
+        font-size: 1.2rem;
     }
 }

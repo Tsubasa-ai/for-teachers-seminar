@@ -253,6 +253,24 @@ ul {
     z-index: 1;
 }
 
+.card-materials {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('demo_materials.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-website {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('demo_website.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-image {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('demo_image_gen.png');
+    background-size: cover;
+    background-position: center;
+}
+
 /* Instructor Section */
 .instructor {
     padding: 80px 0;
